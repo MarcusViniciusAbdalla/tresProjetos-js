@@ -6,7 +6,7 @@ let etapas = [
             {
                 numero:'38111',
                 nome: 'Fulano de Tal',
-                partido: 'Abc',
+                partido: 'ABC',
                 fotos:[
                     {url: "Design sem nome (18).png" , legenda: 'Vereador'}
                 ]
@@ -14,7 +14,7 @@ let etapas = [
             {
                 numero:'77222',
                 nome:'Beltrana de Tal',
-                partido: 'TOP',
+                partido: 'DEFG',
                 fotos:[
                     {url:'Design sem nome (19).png', legenda: 'Vereador'}
                 ]
@@ -32,17 +32,17 @@ let etapas = [
                 Vice:'Cic',
                 fotos:[
                     {url:'99.png', legenda:'Prefeito'},
-                    {url:'99_2.png', legenda:'Vice-Prefeita', small:true}
+                    {url:'99_2.png', legenda:'Vice-Prefeito', small:true}
                 ]
             },
             {
                 numero:'84',
                 nome:'Zulano',
-                Partido:"Mió",
-                Vice:"Zula",
+                Partido:"QWERTY",
+                Vice:"Zul",
                 fotos:[
-                    {url:'84.png',legenda:'Prefeita'},
-                    {url:'84_2.png', legenda:'Vice-Prefeita', small:true}
+                    {url:'84.png',legenda:'Prefeito'},
+                    {url:'84_2.png', legenda:'Vice-Prefeito', small:true}
                 ]
             },
         ]
