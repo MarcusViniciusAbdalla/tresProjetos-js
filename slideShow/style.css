@@ -11,8 +11,23 @@ header {
 
 .header {
     height: 60px;
-    background-color: #FF0000;
+    background-color: #ff0000;
 
 }
 
+.slider{
+    flex: 1;
+    overflow: hidden;
 
+}
+
+.slider--width{
+    height:100%;
+    display:flex;
+
+}
+
+.slider--item{
+    width:100vw;
+    height: inherit;
+}
