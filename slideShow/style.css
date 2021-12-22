@@ -9,4 +9,10 @@ header {
     background-color: #CCC;
 }
 
+.header {
+    height: 60px;
+    background-color: #FF0000;
+
+}
+
 
