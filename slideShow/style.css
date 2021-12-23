@@ -10,7 +10,7 @@ header {
 }
 
 .header {
-    height: 60px;
+    height: 50px;
     background-color: #ff0000;
 
 }
@@ -37,7 +37,7 @@ header {
 .sliders--controls{
     position: absolute;
     z-index: 99;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,4 +49,5 @@ header {
     background-color:#FFF;
     border-radius: 50%;
     overflow: hidden;
+    cursor: pointer;
 }
