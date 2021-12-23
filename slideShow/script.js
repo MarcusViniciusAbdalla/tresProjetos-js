@@ -18,8 +18,10 @@ function goNext() {
     if (currentSlide > (totalSildes - 1)) {
         currentSlide = 0;
     }
+    updateMargin()
 }
 
 function updateMargin() {
-
+    let newMargin = (currentSlide * document.body.clientHeight)
+    document.querySelector('.slider--widht').style.marginLeft = `-${newMargin}px`;
 }
