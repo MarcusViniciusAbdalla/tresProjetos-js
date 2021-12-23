@@ -22,8 +22,8 @@ function goNext() {
 }
 
 function updateMargin() {
-    let sliderWidht = document.querySelector('.slider').clientWidth;
-    let newMargin = (currentSlide * sliderWidht)
+    let sliderItemWidht = document.querySelector('.slider').clientWidth;
+    let newMargin = (currentSlide * sliderItemWidht)
     document.querySelector('.slider--widht').style.marginLeft = `-${newMargin}px`;
 }
 
