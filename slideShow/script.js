@@ -6,10 +6,20 @@ document.querySelector('.slider--widht').style.widht = `calc(100vw * ${totalSild
 document.querySelector('.slider--controls').style.height = `${document.querySelector('.slider').clientHeight}px`;
 
 function goPrev() {
-
+    currentSlide--;
+    if (currentSlide < 0) {
+        currentSlide = totalSildes - 1;
+    }
+    updateMargin()
 }
 
 function goNext() {
-
+    currentSlide++;
+    if (currentSlide > (totalSildes - 1)) {
+        currentSlide = 0;
+    }
 }
 
+function updateMargin() {
+
+}
