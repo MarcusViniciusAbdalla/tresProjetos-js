@@ -33,3 +33,20 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+.sliders--controls{
+    position: absolute;
+    z-index: 99;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sliders--control{
+    widows: 50px;
+    height: 50px;
+    background-color:#FFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
